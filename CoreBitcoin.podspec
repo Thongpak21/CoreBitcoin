@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/oleganza/CoreBitcoin"
   s.license      = 'WTFPL'
   s.author       = { "Oleg Andreev" => "oleganza@gmail.com" }
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.9'
   s.source       = { :git => "https://github.com/oleganza/CoreBitcoin.git", :tag => s.version.to_s }
   s.source_files = 'CoreBitcoin'
